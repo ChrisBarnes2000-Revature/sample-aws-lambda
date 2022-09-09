@@ -1,6 +1,6 @@
 terraform {
   backend "s3" {
-    bucket         = "jenkins-state-1988"
+    bucket         = "chrisbarnes2000-devops-interview-codepipeline-bucket" # local.s3_bucket_namespace
     key            = "codepipeline-lambda"
     region         = "us-east-1"
   }
